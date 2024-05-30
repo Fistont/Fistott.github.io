@@ -1,39 +1,83 @@
 body {
-    background-image: linear-gradient(to left top, #d16b6b, #d66881, #d3689a, #c86eb3, #b477cc, #ca7acf, #e07cd1, #f57fd1, #ff86aa, #ffa47d, #ffce5c, #fbfa5f);
+    background-image: linear-gradient(to right top, #ede2e8, #efe8ed, #f2edf2, #f5f3f6, #f9f8fa, #f7f5f9, #f4f1f8, #f2eef7, #ebe1f0, #e6d3e6, #e3c4db, #e1b6ce);
+}    
 
-}
 
 h1 {
     text-align: left;
 }
 
 .form-group {
-    margin-bottom: 15px;
+    margin-bottom: 1px;
 }
 
 label {
     display: block;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
 }
 
 input[type="text"],
 input[type="email"],
 input[type="password"] {
-    width: 50%;
+    width: 89%;
     padding: 10px;
-    border: 5px solid #0040ff;
-    border-radius: 88px;
+    border: 2px solid #0040ff;
+    border-radius: 8px;
 }
 
 button {
-    background-color: #4CAF50;
-    color: white;
-    padding: 10px 130px;
-    border: 5px;
-    border-radius: 88px;
-    cursor: pointer;
+  display: block;
+  margin-top: 2%;
+  margin-left: 25%;
+  background-color: lightgreen;
+  color: rgb(4, 4, 4);
+  padding: 15px 55px;
+  border: 5px;
+  border-radius: 10px;
+  cursor: pointer;
 }
 
 button:hover {
-    background-color: #1d04ff;
+    background-color: hwb(123 0% 23% / 0.895);
 }
+
+
+h2 {
+    text-align: center;
+}
+
+.navigation-bar {
+    background-color: #00ff0d; /* Change this to your desired color */
+    color: white; /* Text color for links */
+  }
+  
+  .navigation-bar a {
+    color: inherit; /* Inherit color from the navigation bar */
+    text-decoration: none; /* Remove underline from links */
+  }
+  
+  .navigation-bar a:hover { /* Style for link hover effect */
+    color: #f8f9fa; /* Change this to your desired hover color */
+  }
+
+  html, body {
+    height: 50%;
+  }
+  
+  body {
+    display: flex;
+    flex-direction:  column;
+  }
+  
+  footer {
+    position: static;
+    margin-top: 2%;
+    flex-direction:  row;
+    padding: 5px 5%;
+    border: 2px solid #0040ff;
+    border-radius: 88px;
+  }
+
+  h5 {
+    text-align: center;
+  }
