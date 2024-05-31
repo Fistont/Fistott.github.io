@@ -12,5 +12,5 @@ form.addEventListener('submit', (event) => {
   console.log(`Username: ${username}, Email: ${email}, Password: ${password}`);
 
   // You can also display a success message or redirect to another page
-  window.location.href = "https://fistonthings.blogspot.com/"; // Redirect to a specific URL
+  window.location.href = "https://fistonthings.blogspot.com"; // Redirect to a specific URL
 });
