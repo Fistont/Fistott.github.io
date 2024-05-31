@@ -1,7 +1,7 @@
 body {
-    background-image: linear-gradient(to right top, #ede2e8, #efe8ed, #f2edf2, #f5f3f6, #f9f8fa, #f7f5f9, #f4f1f8, #f2eef7, #ebe1f0, #e6d3e6, #e3c4db, #e1b6ce);
-}    
+    background-image: url("sign-up-button\ \(1\).avif");
 
+}
 
 h1 {
     text-align: left;
@@ -23,6 +23,7 @@ input[type="password"] {
     padding: 10px;
     border: 2px solid #0040ff;
     border-radius: 8px;
+    margin-left: 8px;
 }
 
 button {
