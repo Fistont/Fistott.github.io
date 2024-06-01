@@ -10,7 +10,6 @@ form.addEventListener('submit', (event) => {
 
   // Here you can process the form data (e.g., send it to a server)
   console.log(`Username: ${username}, Email: ${email}, Password: ${password}`);
-
-  // You can also display a success message or redirect to another page
-  window.location.href = "https://fistonthings.blogspot.com"; // Redirect to a specific URL
+  // Open target URL in a new window
+  window.open("https://fistonthings.blogspot.com", '_blank');
 });
