@@ -1,11 +1,9 @@
 <?php
-
-// Database connection details (replace with your actual credentials)
-$servername = "localhost";
-$username = "your_username";
-$password = "your_password";
-$dbname = "your_database_name";
-
+// Replace with your database connection details
+$servername = "fistonbase.cbw2kwu8cexw.us-east-2.rds.amazonaws.com";
+$username = "adminfiston";
+$password = "fistonwilliam2009$";
+$dbname = "fistonbase";
 // Create connection
 $conn = new mysqli($servername, $username, $password, $dbname);
 
